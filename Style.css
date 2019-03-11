@@ -1,0 +1,28 @@
+h1
+{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.p1 
+{
+    color: aqua;
+}
+
+
+a:hover
+{
+    background-color: gold;
+}
+img 
+{
+    -webkit-transition: -webkit-transform 2s ease-in-out;
+            transition:         transform 2s ease-in-out;
+}
+
+img:hover 
+{
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
